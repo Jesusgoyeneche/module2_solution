@@ -1,0 +1,140 @@
+
+h1{
+
+	margin-left: auto;
+	font-family: helvetica;
+	text-align: center;
+	font-size: 275%;
+
+}
+
+div{
+	position:relative;
+	
+}
+*{
+	box-sizing: border-box;
+}
+p{
+	margin: 0px;
+	padding-bottom: 1%;
+	border:2px solid green;
+	background-color: black; 
+	font-family: helvetica;
+	font-size: 125%;
+	color:white;
+width:30%;
+bottom: 99%;
+margin-left: auto;
+margin-bottom: auto;
+position: relative;
+text-align: center;
+
+
+}
+.row{
+	width: 100%;
+}
+@media (min-width: 992px){.col_lg1,.col_lg2,.col_lg3
+
+    {
+    	float: left;
+    	border: 1px solid blue
+    	
+	    
+    }
+	.col_lg1{
+        background-color: grey; 
+        padding-left: 1%;
+        padding-bottom: 1%;
+		width: 29%;
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+		.col_lg2{
+			padding-left: 1%;
+			padding-bottom: 1%;
+        background-color: grey; 
+		width: 29%;
+		margin-right: 3%
+	}
+	.col_lg3{
+		padding-left: 1%;
+		padding-bottom: 1%;
+	    margin-right: 3%;
+        background-color: grey; 
+		width: 29%;
+	}
+
+}
+
+@media  (min-width: 768px) and (max-width: 991px){.col_md1,.col_md2,.col_md3
+
+
+     {
+     	border: 1px solid blue
+     }
+	.col_md1{
+		padding-left: 1%;
+        padding-bottom: 1%;
+        background-color: grey; 
+        float:left;
+		width: 45%;
+		margin-left: 3%;
+	}
+		.col_md2{
+			padding-left: 1%;
+        padding-bottom: 1%;
+			margin-left: 3%;
+			margin-right: 3%;
+        background-color: grey; 
+        float:left;
+		width: 45%;
+	}
+	.col_md3{
+		padding-left: 1%;
+        padding-bottom: 1%;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-top: 3%;
+        background-color: grey; 
+        float:left;
+		width: 93%;
+	}
+
+}
+
+@media (max-width: 767px){.col_min1,.col_min2,.col_min3
+
+  {
+     	border: 1px solid blue
+     }
+	.col_min1{
+		padding-left: 1%;
+        padding-bottom: 1%;
+        background-color: grey; 
+        margin-top: 3%;
+		width: 94%;
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+		.col_min2{
+			padding-left: 1%;
+        padding-bottom: 1%;
+			margin-top: 3%;
+        background-color: grey; 
+		width: 94%;
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+	.col_min3{
+		padding-left: 1%;
+        padding-bottom: 1%;
+		margin-top: 3%;
+        background-color: grey; 
+		width: 94%;
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+
+}
